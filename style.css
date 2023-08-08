@@ -47,6 +47,7 @@ textarea {
 button {
 	display: block;
 	margin: 0 auto;
+	margin-top: 20px;
 	padding: 10px 20px;
 	font-size: 18px;
 	font-weight: bold;
@@ -81,3 +82,24 @@ footer a:hover {
 	font-weight: bold;
 }
 
+/*  ==============  conteúdo responsivo ===========  */
+
+@media screen and (max-width: 768px) {
+
+	form {
+		padding: 10px;
+		width: 320px;
+		height: 540px;
+		top: 40%;
+		left: 50%;
+		overflow: hidden;
+	}
+
+	textarea {
+		width: 90%;
+	}
+
+	footer {
+		width: 95%;
+	}
+}

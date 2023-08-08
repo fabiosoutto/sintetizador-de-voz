@@ -13,4 +13,4 @@ utterance.voice = synth.getVoices().find(voice => voice.name === 'Joana');
 Para alterar a velocidade da fala, basta usar a propriedade rate e atribuir a ela um valor de 0.1 a 10. Por exemplo, para definir a velocidade como padrão (1.0), você pode usar o código seguinte:
 utterance.rate = 1.0;
 
-Para alterar o tom da fala, basta usar a propriedade pitch e atribuir a ela um.
+Para alterar o tom da fala, basta usar a propriedade pitch e atribuir a ela um valor ex: normal = 1.0

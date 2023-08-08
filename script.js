@@ -6,7 +6,7 @@ speakButton.addEventListener('click', () => {
 	const synth = window.speechSynthesis;
 	const utterance = new SpeechSynthesisUtterance(text);
 	utterance.voice = synth.getVoices().find(voice => voice.name === 'Joana');
-	utterance.pitch = 1;
+	utterance.pitch = 1.0;
 	utterance.rate = 1.0;
 	synth.speak(utterance);
 });

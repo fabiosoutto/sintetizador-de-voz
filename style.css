@@ -1,5 +1,5 @@
 body {
-	background-color: #f5f5f5;
+	background-color: #000;
 	font-family: sans-serif;
 	text-align: center;
 }
@@ -40,6 +40,8 @@ textarea {
 	box-sizing: border-box;
 	outline: none;
 	resize: none;
+	background-color: #000;
+	color: #fff;
 }
 
 button {
@@ -78,3 +80,4 @@ footer a:hover {
 	color: gold;
 	font-weight: bold;
 }
+
